@@ -9,6 +9,12 @@
 }
 
 @media screen and (max-width: 1200px){
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1200px){
     #desktop-nav{
         display: none;
     }
