@@ -1,3 +1,13 @@
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1200px){
     #desktop-nav{
         display: none;
@@ -6,5 +16,3 @@
         display: flex;
     }
 }
-
-
