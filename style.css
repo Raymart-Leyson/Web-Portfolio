@@ -177,6 +177,11 @@ section {
     font-weight: 600;
 }
 
+.section_text_h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
 .section_text_p1{
     text-align: center;
 }
@@ -254,6 +259,59 @@ section {
 .btn.button-container {
     gap: 1rem
 }
+
+/* About */
+
+#about {
+    position: relative;
+}
+
+.about-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container,
+.about-details-container{
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.5rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 2rem;
+    height: 70%;
+}
+
+.section-pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+
 
 
 
